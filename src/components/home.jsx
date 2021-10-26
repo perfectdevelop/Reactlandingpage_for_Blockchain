@@ -33,7 +33,7 @@ export class home extends Component{
           <div className="home-container" >
             <div className="home-left">
               <div className="main-title">
-                <p className="big-title">Wlecome to wagies!</p>
+                <p className="big-title">Welcome to wagies!</p>
                 <p className="subtitle">Can I take your order?</p>
               </div>
               <button className="mint-button">MINT</button>
