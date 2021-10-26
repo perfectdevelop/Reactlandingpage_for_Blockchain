@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import Mainlogo from '../assets/logo/logo.png'
+import Mainlogo from '../assets/logo/logo.png';
+import Discord from '../assets/logo/discord.png';
+import Twitter from '../assets/logo/twitter.png';
 
 export class Navigation extends Component {
   render() {
@@ -29,6 +31,16 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
+            <li>
+                <a href="www.discord.com" className="page-scroll">
+                  <img src={Discord} alt="discord" className="discord-logo"/>
+                </a>
+              </li>
+              <li>
+                <a href="www.twitter.com" className="page-scroll">
+                  <img src={Twitter} alt="twitter" className="twitter-logo"/>
+                </a>
+              </li>
               <li>
                 <a href="#" className="page-scroll">
                   MINT

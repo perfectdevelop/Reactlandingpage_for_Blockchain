@@ -6,17 +6,22 @@ import background from '../assets/Website/heartbackground.png';
 export class Team extends Component {
   render() {
     return (
-      <div id="team" className="text-center" style={{ 
-        backgroundImage: `url(${background})` }}>
+      <div id="team" className="text-center" style={{
+        backgroundImage: `url(${background})`
+      }}>
         <p className="each-title">TEAM</p>
         <div className="team-container">
           <div className="team-left">
-            <img src={Teamleft} alt="" className="team-left-image" />
+            <a href="https://twitter.com/mot_eth" className="">
+              <img src={Teamleft} alt="" className="team-left-image" />
+            </a>
             <p className="name">MOT</p>
             <p className="description">Project Manager</p>
           </div>
           <div className="team-right">
-            <img src={Teamright} alt="" className="team-left-image" />
+            <a href="https://github.com/msilucifer" className="">
+              <img src={Teamright} alt="" className="team-left-image" />
+            </a>
             <p className="name">MSILucifer</p>
             <p className="description">Developer</p>
           </div>

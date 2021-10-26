@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import AboutImage from '../assets/wagies/2.png';
 import background from '../assets/Website/heartbackground.png';
+import Adding1 from '../assets/wagies/1.png';
+import Adding2 from '../assets/wagies/2.png';
+import Answer from '../assets/wagies/3.png';
 
 export class about extends Component {
   render() {
@@ -8,16 +11,23 @@ export class about extends Component {
       <div id="about" style={{ 
         backgroundImage: `url(${background})` }}>
         <p className="each-title">ABOUT US</p>
+        <p className="subabout">3333 Genesis Wagies <span>|</span> 3337 Off-Work Wagies to be created <span>|</span> 0.16 Mint Price</p>
         <div className="about-container">
           <div className="about-left">
-            <img src={AboutImage} alt="" />
+            <p className="sub-left-title">Genesis Wagies</p>
+            <p className="sub-left-content">In-uniform and working hard at their job, they generate 1 $TENDIE per day. $TENDIES can be used to name your Wagie or, mint an Off-Work Wagies by holding 2 Genesis Wagies and burning 200 $TENDIES.</p>
           </div>
           <div className="about-right">
-            <p className="about-content">
-              Wagies is and avatar project that is built around our value-less utility token(Tandies)
-            </p>
-            <p>To Reward Members for Holding Wagies, we are building a gaming and a gachapon ecosystem around this token.</p>
+            <p className="sub-left-title">Off-Work Wagies</p>
+            <p className="sub-left-content">These Wagies are finished their shift and wearing cute clothes. However, they still generate 0.25 $TENDIES per day. Use $TENDIES to name them, or in our upcoming NFT gachapon machine.</p>
           </div>
+        </div>
+        <div className="equation">
+          <img src={Adding1} alt="adding1" className="adding1"/>
+          <p className="plus">+</p>
+          <img src={Adding2} alt="adding2" className="adding2" />
+          <p className="equal">=</p>
+          <img src={Answer} alt="answer" className="answer" />
         </div>
       </div>
     )
