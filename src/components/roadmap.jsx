@@ -10,7 +10,7 @@ export class Gallery extends Component {
         <div className="roadmap-container">
           <div className="roadmap">
             <p className="roadmap-content-title">25% SOLD</p>
-            <p className="roadmap-content">The figure Factory opens. Custom 3D modelied NFTs of your Wagie can be purchased for Tendies.</p>
+            <p className="roadmap-content">The figure Factory opens. Custom 3D modelled NFTs of your Wagie can be purchased for Tendies.</p>
           </div>
           <div className="roadmap">
             <p className="roadmap-content-title">52% SOLD</p>
