@@ -14,9 +14,9 @@ export class about extends Component {
           </div>
           <div className="about-right">
             <p className="about-content">
-              Wagies is and avatar proejct that is build around our value-less utitlity token(Tandies)
+              Wagies is and avatar project that is built around our value-less utility token(Tandies)
             </p>
-            <p>To reward Members for Holding Wagies, we are building a gaming and a gachapon ecosystem around this token.</p>
+            <p>To Reward Members for Holding Wagies, we are building a gaming and a gachapon ecosystem around this token.</p>
           </div>
         </div>
       </div>

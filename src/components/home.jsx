@@ -10,7 +10,7 @@ import Image3 from '../assets/Carousel/Carousel3.jpg';
 import Image4 from '../assets/Carousel/Carousel4.jpg';
 import Image5 from '../assets/Carousel/Carousel5.jpg';
 import Image6 from '../assets/Carousel/Carousel6.jpg';
-import background from '../assets/Website/heartbackground.png';
+import background from '../assets/Website/heartbackground1.png';
 
 
 export class home extends Component{

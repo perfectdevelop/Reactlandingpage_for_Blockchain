@@ -12,9 +12,13 @@ export class Team extends Component {
         <div className="team-container">
           <div className="team-left">
             <img src={Teamleft} alt="" className="team-left-image" />
+            <p className="name">MOT</p>
+            <p className="description">Project Manager</p>
           </div>
           <div className="team-right">
             <img src={Teamright} alt="" className="team-left-image" />
+            <p className="name">MSILucifer</p>
+            <p className="description">Developer</p>
           </div>
         </div>
       </div>

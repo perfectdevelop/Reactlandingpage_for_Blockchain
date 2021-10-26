@@ -841,6 +841,17 @@ color: #777;
 	color: black !important;
 	font-size: 25px;
 }
+.name{
+	margin-top: 10px;
+	color: black !important;
+	font-size: 30px;
+	font-family: Rammetto One;
+}
+.description{
+	color: black !important;
+	font-size: 25px;
+	font-family: Rammetto One;
+}
 
 @media screen and (max-width: 1300px) {
 	.home-right img{
