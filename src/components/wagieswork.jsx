@@ -4,6 +4,11 @@ import Wagies2 from '../assets/wagies/2.png';
 import Wagies3 from '../assets/wagies/3.png';
 import Group from '../assets/Website/Group1.png'
 import background from '../assets/Website/heartbackground.png';
+import Character1 from '../assets/Website/character1.png';
+import Character2 from '../assets/Website/character2.png';
+import divide from '../assets/Website/divide.png';
+import Forcharacter1 from '../assets/Website/forcharacter1.png';
+import Forcharacter2 from '../assets/Website/forcharacter2.png';
 
 export class WagiesWork extends Component {
   render() {
@@ -18,7 +23,13 @@ export class WagiesWork extends Component {
           <div><img src={Wagies3} alt="wagies" className="" /></div>
         </div>
         <div className="wagies-content">
-          <img src={Group} alt="" />
+          <div className="characters">
+            <img src={Character1} alt="Character1" className="character1" />
+            <img src={divide} alt="divide" className="divide" />
+            <img src={Character2} alt="Character2" className="character2" />
+            <img src={Forcharacter1} alt="Forcharacter1" className="for-chara1" />
+            <img src={Forcharacter2} alt="Forcharacter2" className="for-chara2" />
+          </div>
           <div className="group-content">
             <div className="group-left">
               <p className="">Generates 1 $ TENDIE per day</p>

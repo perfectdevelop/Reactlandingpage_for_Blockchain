@@ -765,9 +765,6 @@ color: #777;
 .wagies-content{
 	margin-top: 100px;
 }
-.wagies-content img{
-	width: 100%;
-}
 
 /*Roadmap css*/
 #roadmap{
@@ -820,6 +817,9 @@ color: #777;
 .about-container{
 	margin-top: 100px;
 }
+.features-content{
+	padding-left: 10%;
+}
 .features-content p{
 	font-family: Montserrat SemiBold;
 	font-size: 25px;
@@ -851,6 +851,47 @@ color: #777;
 	color: black !important;
 	font-size: 25px;
 	font-family: Rammetto One;
+}
+.characters{
+	position: relative;
+	height: 700px;
+	width: 100%;
+	background-color: #2acaea;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.character1{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+}
+.character2{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+}
+.divide{
+	width: 140px !important;
+	height: 750px !important;
+}
+.for-chara1{
+	position: absolute;
+	top: -40px;
+	width: 300px;
+	height: auto;
+	left: 15%;
+}
+.for-chara2{
+	position: absolute;
+	top: -40px;
+	width: 300px;
+	height: auto;
+	right: 15%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -904,13 +945,37 @@ color: #777;
 	#about, #features, #team, #wagies-work, #roadmap, .intro{
 		background-size: cover;
 	}
+	.characters{
+		zoom:0.8
+	}
   }
 
   @media screen and (max-width: 1000px) {
-	  .main-title{
-		  width: 100%;
-		  padding: 0 20px;
-	  }
+	.characters{
+		zoom: 0.7;
+	}
+	.character1{
+		width: 400px;
+		height: 500px;
+		position: absolute;
+		bottom: 0;
+		left: 5%;
+	}
+	.character2{
+		width: 400px;
+		height: 500px;
+		position: absolute;
+		bottom: 0;
+		right: 5%;
+	}
+	.characters{
+		zoom: 0.5;
+	}
+
+	.main-title{
+		width: 100%;
+		padding: 0 20px;
+	}
 	.big-title{
 		font-size: 40px;
 	}
@@ -989,4 +1054,10 @@ color: #777;
 		width: 200px;
 		height: 200px;
 	}
+  }
+
+  @media screen and (max-width: 500px) {
+	  .characters{
+		zoom: 0.3;
+	  }
   }
