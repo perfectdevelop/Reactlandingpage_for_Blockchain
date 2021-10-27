@@ -37,7 +37,7 @@ export class home extends Component{
                 <p className="subtitle">Can I take your order?</p>
               </div>
               <button className="mint-button">MINT</button>
-              <p className="minted">0/3333 Wagies Minted</p>
+              <p className="minted">0/3333 Genesis Wagies Minted</p>
             </div>
             <div className="home-right">
               <img src={Homegif} alt="homegif" className="home-gif" />

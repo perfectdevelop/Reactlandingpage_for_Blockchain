@@ -62,12 +62,12 @@ export class home extends Component {
             <p className="features-content">06</p>
             <p className="features-number">Custom, 3D modelled NFTs of your Wagie</p>
           </div>
-          <div className="each-feature">
+          {/* <div className="each-feature">
             <img src={Border} alt="border" className="border" />
             <img src={Icon7} alt="icons" className="feature-icons" />
             <p className="features-content">07</p>
             <p className="features-number">Breeding/ Customization mechanic</p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

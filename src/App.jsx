@@ -32,7 +32,7 @@ export class App extends Component {
         <Home />
         <About data={this.state.landingPageData.About} />
         <Features />
-        <WagiesWork />
+        {/* <WagiesWork /> */}
         <Roadmap />
         <Team data={this.state.landingPageData.Team} />
         <Footer />

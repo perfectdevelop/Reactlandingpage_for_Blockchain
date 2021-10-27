@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import AboutImage from '../assets/wagies/2.png';
 import background from '../assets/Website/heartbackground.png';
-import Adding1 from '../assets/wagies/1.png';
-import Adding2 from '../assets/wagies/2.png';
-import Answer from '../assets/wagies/3.png';
+import Adding1 from '../assets/wagies/5.jpg';
+import Adding2 from '../assets/wagies/4.png';
+import Answer from '../assets/wagies/answer.gif';
 
 export class about extends Component {
   render() {
     return (
       <div id="about" style={{ 
         backgroundImage: `url(${background})` }}>
-        <p className="each-title">ABOUT US</p>
-        <p className="subabout">3333 Genesis Wagies <span>|</span> 3337 Off-Work Wagies to be created <span>|</span> 0.16 Mint Price</p>
+        <p className="each-title">BREEDING</p>
+        <p className="subabout">3333 Genesis Wagies <span>|</span> 6667 Off-Work Wagies to be created <span>|</span> 0.08 Mint Price</p>
         <div className="about-container">
           <div className="about-left">
             <p className="sub-left-title">Genesis Wagies</p>

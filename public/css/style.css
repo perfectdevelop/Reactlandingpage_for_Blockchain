@@ -71,6 +71,7 @@ hr {
 	color: black !important;
 	text-align: center;
 }
+
 /* Navigation */
 #menu {
 	padding: 15px;
@@ -91,6 +92,7 @@ hr {
 	color: #333;
 	text-transform: uppercase;
 	padding: 0;
+	margin-top: 7px;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: Montserrat SemiBold;
@@ -218,6 +220,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     cursor: pointer;
     transition: all 0.2s linear 0s;
 }
+.logo{
+	width: 200px;
+	height: auto;
+}
 /* Header Section */
 .home-container{
 	display: flex;
@@ -236,14 +242,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .big-title{
 	font-family: Rammetto One;
-	color: #000 !important;
+	color: #fff !important;
 	font-size: 90px;
 	font-weight: 800;
 	line-height: 1.2 !important;
 }
 .subtitle{
 	font-family: Rammetto One;
-	color: #000 !important;
+	color: #fff !important;
 	font-size: 40px;
 }
 .minted{
@@ -276,8 +282,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 10px 50px;
 	border: none;
 	border-radius: 10px;
-	color: black;
-	background-color: #0078ff;
+	color: #fff;
+	background-color: #a31621;
 	font-family: Montserrat SemiBold;
 	font-size: 30px;
 }
@@ -294,11 +300,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 800;
 	color: #5ca9fb;
 }
-.intro p {
-	color: #fff;
-	margin: 0 auto;
-	margin-bottom: 60px;
-}
+
 header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
@@ -316,7 +318,7 @@ header .intro-text {
 	justify-content: center !important;
 }
 .parent-carousel div div div{
-	gap: 50px;
+	gap: 30px;
 }
 /* Features Section */
 #features {
@@ -910,9 +912,7 @@ color: #777;
 .group-left{
 	width: 50%;
 	padding: 0 10px;
-	display: flex;
 	align-items: center;
-	justify-content: center;
 }
 .character-description{
 	height: 300px;
@@ -937,9 +937,7 @@ color: #777;
 .group-right{
 	width: 50%;
 	padding: 0 10px;
-	display: flex;
 	align-items: center;
-	justify-content: center;
 }
 .group-content p{
 	font-family: Montserrat SemiBold;
@@ -959,7 +957,7 @@ color: #777;
 }
 .characters{
 	position: relative;
-	height: 700px;
+	height: 600px;
 	width: 100%;
 	background-color: #2acaea;
 	margin-bottom: 50px;
@@ -967,12 +965,18 @@ color: #777;
 	justify-content: space-evenly;
 }
 .character1{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
 }
-.character2{
-	width: 300px;
-	height: 300px;
+.character2{	
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
 }
 .divide{
 	width: 140px !important;
@@ -1063,6 +1067,7 @@ color: #777;
 	  }
 	  .characters{
 		  flex-direction: column;
+		  height: 400px;
 	  }
 	  .group-left, .group-right{
 		  width: 100%;
@@ -1074,11 +1079,17 @@ color: #777;
 		zoom: 0.8;
 	}
 	.characters{
-		zoom: 0.7;
+		zoom: 0.4;
 	}
 	.character1{
+		left: 7%;
 	}
+
 	.character2{
+		right: 7%;
+	}
+	.group-left p{
+		font-size: ;
 	}
 
 	.main-title{
@@ -1128,7 +1139,7 @@ color: #777;
 		font-size: 25px;
 	}
 	.group-content p{
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.wagies-work-container img{
 		width: 100%;
@@ -1150,20 +1161,46 @@ color: #777;
 		font-size: 20px;
 	}
 	.navbar-header > a > img{
-		width: 200px;
+		width: 150px;
 	}
 	.parent-carousel img{
 		width: 200px;
 		height: 200px;
+	}
+	.footer-right{
+		justify-content: center;
+	}
+	.social-icons{
+		display: none;
+	}
+	.copyright{
+		display: none;
 	}
   }
 
   @media screen and (max-width: 500px) {
 	  .character-description{
 		  padding-top: 30px;
+		  height: 280px;
+		  width: 200px;
 	  }
+	  .logo{
+		  width: 150px;
+	  }
+	  .character-button1{
+		  margin-top: 10px;
+	  }
+	  .character1{
+		  width: 280px;
+		  height: 280px;
+	  }
+	  .character2{
+		  width: 280px;
+		  height: 280px;
+	  }
+
 	  .each-feature{
-		  zoom: 0.7;
+		  zoom: 0.5;
 	  }
 	  .features-container{
 		  padding: 20px 50px;
